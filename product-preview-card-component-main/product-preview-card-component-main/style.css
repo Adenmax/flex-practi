@@ -1,0 +1,41 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  width: 600px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  transform: translateY(100px);
+  gap: 10px;
+  /* flex-wrap: wrap; */
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  align-items: center;
+  /* width: 200px; */
+}
+img {
+  width: 350px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  /* margin: 0px 0px; */
+}
+h2 {
+  font-weight: 600;
+  color: brown;
+}
+.text {
+  padding: 30px;
+  /* width: 40px; */
+  justify-content: right;
+}
